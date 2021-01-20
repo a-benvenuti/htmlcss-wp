@@ -10,18 +10,43 @@ body{
 }
 .box{
   margin: auto;
-  padding: 10px;
+  /* padding: 10px; */
   width: 90%;
   height:1000px;
 }
 /* INTESTAZIONE */
 header{
-  background-color: #e266d7;
+  /* background-color: #e266d7; */
   margin: auto;
   margin-bottom: 10px;
   width: 100%;
-  height:calc(14% - 10px); /*da togliere successivamente*/
+  padding: 5px 0;
+  /* height:calc(14% - 10px);  */
 }
+img{
+  max-width: 150px;
+  display: block;
+  margin-bottom: 30px;
+}
+/* navbar */
+nav{
+  width: 100%;
+  text-align: left;
+}
+nav li{
+  display: inline-block;
+  /* vertical-align: middle; */
+  /* padding: 5px 10px 5px 10px; */
+  /* background-color: white; */
+  margin-right: 5px;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 50%; */
+}
+nav a{
+  text-decoration: none;
+  color: #929292;
+}
+/* /navbar */
 /* /INTESTAZIONE */
 /* BANNER */
 main{
@@ -75,7 +100,7 @@ section{
 footer{
   background-color: #a313de;
   margin: auto;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   width: 100%;
   height:calc(8% - 20px); /*da togliere successivamente*/
 }
