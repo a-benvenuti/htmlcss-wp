@@ -19,6 +19,7 @@
 /* ---------------/MIX------------- */
 body{
   background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 .box{
   margin: auto;
@@ -44,7 +45,7 @@ nav{
 }
 nav li{
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 nav a{
   text-decoration: none;
@@ -70,8 +71,12 @@ main{
   color: white;
 }
 span p:nth-of-type(1){
-  font-size: 42px;
+  font-size: 35px;
 }
+span p:nth-of-type(2){
+  font-size: 13px;
+}
+
 /* /BANNER */
 /* -------------------CORPO DELLA PAGINA------------------- */
 /* CLEARFIX */
