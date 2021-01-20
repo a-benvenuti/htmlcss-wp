@@ -54,7 +54,6 @@ nav a{
 /* /INTESTAZIONE */
 /* BANNER */
 main{
-  margin: auto;
   margin-bottom: 30px;
   width: 100%;
   height: 450px;
@@ -112,14 +111,12 @@ section{
   width: 100%;
   height: 230px;
   object-fit: cover;
-  margin-bottom: 15px;
-  /* position: relative; */
+  position: relative;
 }
 .col-dx img{
   width: 100%;
   height: 230px;
   object-fit: cover;
-  margin-bottom: 15px;
 }
 .col-cen {
   float: left;
@@ -132,12 +129,15 @@ section{
   width: 100%;
   height: 230px;
   object-fit: cover;
-  margin-bottom: 15px;
 }
 .container h6{
   font-size: 16px;
   color: black;
+  margin-top: 15px;
   margin-bottom: 15px;
+}
+.col-img{
+  position: relative;
 }
 /* -------------------/CORPO DELLA PAGINA------------------- */
 /* PIE DI PAGINA */
