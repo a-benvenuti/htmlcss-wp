@@ -24,7 +24,6 @@ body{
 .box{
   margin: auto;
   width: 90%;
-  height: 1000px;
 }
 /* INTESTAZIONE */
 header{
@@ -58,7 +57,7 @@ main{
   margin: auto;
   margin-bottom: 30px;
   width: 100%;
-  height:calc(45% - 10px);
+  height: 450px;
   background-image: url(../img/banner.jpg);
   background-position: center;
   position: relative;
@@ -86,14 +85,11 @@ span p:nth-of-type(2){
 }
 /* /CLEARFIX */
 section{
-  /* background-color: red; */
   margin: auto;
   margin-bottom: 30px;
   width: 100%;
-  /* height:calc(45% - 5px); */
 }
 .int-top{
-  /* background-color: lightblue; */
   width: 100%;
   font-size: 30px;
   margin-bottom: 40px;
@@ -103,17 +99,12 @@ section{
   color: #929292;
 }
 .container{
-  /* background-color: green; */
   width: 100%;
   color: #929292;
-  /* height: 90%;  */
 }
 .col-sx, .col-dx {
   float: left;
-  /* background-color: lightblue; */
-  /* height:calc(100% - 20px);  */
   width: calc(20% - 10px);
-  /* margin: 10px 10px 10px 10px; */
   display: inline-block;
   background-size: contain;
 }
@@ -132,8 +123,6 @@ section{
 }
 .col-cen {
   float: left;
-  /* background-color: lightblue; */
-  /* height:calc(100% - 20px);  */
   width:calc(60% - 20px);
   margin: 0 20px;
   display: inline-block;
@@ -153,11 +142,9 @@ section{
 /* -------------------/CORPO DELLA PAGINA------------------- */
 /* PIE DI PAGINA */
 footer{
-  /* background-color: #a313de; */
   margin-top: 40px;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
   width: 100%;
-  /* height:calc(8% - 20px); */
 }
 footer h5{
   text-align: center;
@@ -166,5 +153,4 @@ footer h5{
 footer span{
   color: red;
 }
-
 /* /PIE DI PAGINA */
